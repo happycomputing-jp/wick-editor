@@ -32,7 +32,9 @@ These instructions are for MacOS and Linux, we currently don't have instructions
 
 You'll need to download the following:
 
-- [npm](https://www.npmjs.com/get-npm)
+- [npm](https://github.com/npm/cli)
+> [!WARNING]
+> npm version 6.14.18 with node v14.21.3. I was able to run.
 
 ### Installation
 
