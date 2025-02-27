@@ -10,6 +10,7 @@
     "url": "https://github.com/Wicklets/wick-editor.git"
   },
   "dependencies": {
+    "ajv": "^8.17.1",
     "@ffmpeg/ffmpeg": "^0.7.0",
     "ace-builds": "^1.4.12",
     "audiobuffer-to-wav": "^1.0.0",
@@ -42,7 +43,7 @@
     "react-reflex": "^3.0.6",
     "react-resize-detector": "^3.1.3",
     "react-rnd": "^10.2.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "3.0.0",
     "react-select": "^2.1.0",
     "react-sizeme": "^2.6.12",
     "react-spinners": "^0.9.0",
@@ -60,7 +61,7 @@
     "productName": "Wick Editor",
     "icon": "public/icon.icns",
     "afterSign": "electron-builder-notarize",
-    "copyright": "© 2016-2020 Wicklets LLC",
+    "copyright": "c 2016-2020 Wicklets LLC",
     "files": [
       "./build/**/*",
       "./public/electron.js"
