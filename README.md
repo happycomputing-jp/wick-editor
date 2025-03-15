@@ -34,7 +34,7 @@ You'll need to download the following:
 
 - [npm](https://github.com/npm/cli)
 > [!WARNING]
-> npm version 6.14.18 with node v14.21.3. I was able to run.
+> npm version 8.19.4 with node v16.20.2. I was able to run.
 
 ### Installation
 
