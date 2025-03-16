@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- @import 'Editor/_wickbrand.scss';
+ @use 'Editor/_wickbrand.scss';
 
  $color-picker-width: 220px;
  $color-picker-height: 300px;
@@ -26,7 +26,7 @@
  $color-picker-block-margin: 5px;
 
  .wick-color-picker {
-     background-color: $editor-primary;
+     background-color: wickbrand.$editor-primary;
      width: $color-picker-width;
      height: $color-picker-height;
      padding: 10px 10px 0px;
@@ -156,14 +156,14 @@
 .wick-color-picker input {
     width: 100% !important;
     border-radius: 4px;
-    background-color: $editor-primary !important;
-    border: $editor-input-border-width solid $editor-primary-outline !important;
-    color: $editor-primary-property-text !important;
+    background-color: wickbrand.$editor-primary !important;
+    border: wickbrand.$editor-input-border-width solid wickbrand.$editor-primary-outline !important;
+    color: wickbrand.$editor-primary-property-text !important;
     box-shadow: none !important;
     padding: 0px 0px 0px 2px !important;
 }
 
 .wick-color-picker span {
     padding-bottom: 0px !important;
-    color: $editor-primary-property-text !important;
+    color: wickbrand.$editor-primary-property-text !important;
 }

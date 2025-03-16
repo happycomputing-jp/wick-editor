@@ -17,14 +17,14 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 .menu-bar {
   height: 100%;
   width: 100%;
-  background-color: $editor-primary;
+  background-color: wickbrand.$editor-primary;
   overflow: visible;
-  border: $editor-outline-padding solid $editor-primary-outline;
+  border: wickbrand.$editor-outline-padding solid wickbrand.$editor-primary-outline;
   display: flex;
   box-sizing: border-box;
   align-items: center;
@@ -34,7 +34,7 @@
   transition: .4s;
   font-size: 18px;
   font-family: 'Nunito Sans';
-  color: $editor-menubar-project-text;
+  color: wickbrand.$editor-menubar-project-text;
   cursor: pointer;
   margin: 0 auto;
 }
@@ -49,7 +49,7 @@
   transition: .4s;
   font-size: 18px;
   font-family: 'Nunito Sans';
-  color: $editor-menubar-project-text;
+  color: wickbrand.$editor-menubar-project-text;
   text-align: center;
   margin: 0 auto;
 }

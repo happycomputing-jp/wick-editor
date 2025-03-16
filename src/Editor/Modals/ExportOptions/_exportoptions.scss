@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 $info-left-margin: 12px; 
 
@@ -37,7 +37,7 @@ $info-left-margin: 12px;
 
 #export-modal-title {
   font-size: 18px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-weight: bold; 
   text-align: left;
   width: 100%; 
@@ -166,7 +166,7 @@ $info-left-margin: 12px;
 }
 .export-modal-resolution-label {
   text-align: left;
-  color: $editor-modal-text-gray; 
+  color: wickbrand.$editor-modal-text-gray; 
   margin-bottom: 2px;
 }
 
@@ -193,5 +193,5 @@ $info-left-margin: 12px;
   padding-top: 150%;
   padding-left: 5px; 
   padding-right: 5px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
 }

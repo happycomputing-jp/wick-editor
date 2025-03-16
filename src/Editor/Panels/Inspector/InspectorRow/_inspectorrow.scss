@@ -17,8 +17,8 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
-@import '../_inspector.scss';
+@use 'Editor/_wickbrand.scss';
+@use '../_inspector.scss';
 
 $inspector-element-padding: 1.5%;
 $row-identifier-width: 30%;
@@ -31,7 +31,7 @@ $large-input-width: calc(100% - #{$row-identifier-width});
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: $inspector-row-height;
+  height: inspector.$inspector-row-height;
   margin-bottom: 4px;
 }
 .inspector-row:last-child {
@@ -44,7 +44,7 @@ $large-input-width: calc(100% - #{$row-identifier-width});
   width: $row-identifier-width;
   max-width: $row-identifier-width;
   height: 100%;
-  color: $editor-primary-property-text;
+  color: wickbrand.$editor-primary-property-text;
   white-space: nowrap;
   font-size: 14px;
   font-weight: bold;

@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 $tool-button-margin: 3px;
 $toolbox-max-button-size: 30px;
@@ -25,10 +25,10 @@ $toolbox-max-button-size: 30px;
 .tool-box {
   width: 100%;
   height: 100%;
-  background-color: $editor-primary;
+  background-color: wickbrand.$editor-primary;
   padding-left: 2px;
   padding-right: 4px;
-  border: $editor-outline-padding solid $editor-primary-outline;
+  border: wickbrand.$editor-outline-padding solid wickbrand.$editor-primary-outline;
   border-top: none;
   border-right: none;
   display: flex;
@@ -51,7 +51,7 @@ $toolbox-max-button-size: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 3px solid $editor-primary-outline;
+  border-bottom: 3px solid wickbrand.$editor-primary-outline;
   width: 100%;
   height: 50%;
 }

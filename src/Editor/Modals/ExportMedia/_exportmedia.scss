@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 .media-export-modal-body {
   width: 300px;
@@ -34,7 +34,7 @@
 
 #media-export-modal-title {
   font-size: 18px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-weight: bold; 
   text-align: left;
   width: 100%; 
@@ -42,11 +42,11 @@
 
 #media-export-modal-subtitle {
   font-size: 16px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   padding-bottom: 4px;
 }
 
 #media-export-modal-status-message {
   font-size: 14px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
 }

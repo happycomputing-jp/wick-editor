@@ -17,8 +17,10 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
-@import '../_mobileinspectorrow.scss';
+@use 'Editor/_wickbrand.scss';
+@use '../_mobileinspectorrow.scss';
+@use "../../mobileinspector";
+
 
 .inspector-input-container {
   display: flex;
@@ -29,7 +31,7 @@
 
 .inspector-input-element {
   display: inline-block;
-  height: $inspector-row-height;
+  height: mobileinspector.$inspector-row-height;
 }
 
 .single-input-element {
@@ -47,6 +49,6 @@
 }
 
 .double-input {
-  height: $inspector-row-height;
+  height: mobileinspector.$inspector-row-height;
   display: flex;
 }

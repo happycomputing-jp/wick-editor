@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 
 .general-warning-modal-body {
@@ -29,7 +29,7 @@
 
 #general-warning-modal-title {
   font-size: 18px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-weight: bold; 
   text-align: center;
   margin-top: 20px; 
@@ -46,7 +46,7 @@
 
 #general-warning-modal-message {
   width: 100%;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   text-align: center;
   font-size: 14px; 
 }

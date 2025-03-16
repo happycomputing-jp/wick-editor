@@ -1,5 +1,5 @@
-@import 'Editor/_wickbrand.scss';
-@import '../_inspectorscriptwindow.scss';
+@use 'Editor/_wickbrand.scss';
+@use '../_inspectorscriptwindow.scss';
 
 $delete-button-size: 25px;
 $delete-button-padding: 4px;
@@ -7,8 +7,8 @@ $delete-button-padding: 4px;
 .inspector-script-window-row-name {
     width: calc(100% - #{$delete-button-size} - #{$delete-button-padding}); 
     height: 100%; 
-    background-color: $editor-primary;
-    color: $editor-primary-text;
+    background-color: wickbrand.$editor-primary;
+    color: wickbrand.$editor-primary-text;
     border-radius: 3px;
     overflow: hidden; 
     display: flex;
@@ -17,23 +17,23 @@ $delete-button-padding: 4px;
 .inspector-script-window-row-edit {
     width: 25px;
     height: 100%; 
-    background-color: $editor-primary;
-    color: $editor-primary-text;
+    background-color: wickbrand.$editor-primary;
+    color: wickbrand.$editor-primary-text;
     border-radius: 3px;
 }
 
 .inspector-script-window-row-delete {
     width: $delete-button-size;
     height: 100%; 
-    background-color: $editor-primary;
-    color: $editor-primary-text;
+    background-color: wickbrand.$editor-primary;
+    color: wickbrand.$editor-primary-text;
     border-radius: 3px;
 }
 
 .inspector-script-window-row-color-bar {
     height: 100%;
-    width: $script-window-margin;
-    margin-right: $script-window-margin; 
+    width: inspectorscriptwindow.$script-window-margin;
+    margin-right: inspectorscriptwindow.$script-window-margin; 
 }
 
 .inspector-script-window-row-color-bar.blue-bar {
@@ -41,7 +41,7 @@ $delete-button-padding: 4px;
 }
 
 .inspector-script-window-row-color-bar.green-bar {
-    background-color: $wick-green-light; //$wick-green;
+    background-color: wickbrand.$wick-green-light; //$wick-green;
 }
 
 .inspector-script-window-row-color-bar.yellow-bar {

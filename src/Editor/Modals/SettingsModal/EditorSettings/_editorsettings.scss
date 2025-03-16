@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- @import 'Editor/_wickbrand.scss';
+ @use 'Editor/_wickbrand.scss';
 
 .editor-settings-modal-body {
   width: 100%;
@@ -55,7 +55,7 @@
   height: 100%;
   flex: 0 1 auto;
   align-items: center;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   flex-direction: row;
   margin-left: 4px;
   margin-bottom: 4px;
@@ -71,7 +71,7 @@
 
 .editor-settings-group-title {
   font-size: 20px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
 }
 
 .editor-settings-group {

@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- @import 'Editor/_wickbrand.scss';
+ @use 'Editor/_wickbrand.scss';
  
 $header-height: 42px;
 
@@ -40,7 +40,7 @@ $header-height: 42px;
 }
 
 .mobile-tabbed-interface-main-tab {
-    background-color: $mobile-panel-background;
+    background-color: wickbrand.$mobile-panel-background;
     min-height: 34px;
     border-radius: 5px 5px 0 0;
     height: 100%;
@@ -53,23 +53,23 @@ $header-height: 42px;
 .mobile-tabbed-interface-main-tab.selected {
     min-height: $header-height;
     transition: .4s;
-    border-top: 4px solid $wick-green; 
+    border-top: 4px solid wickbrand.$wick-green; 
 }
 
 .mobile-tabbed-interface-main-tab.selected.mobile-timeline-tab {
-    border-top: 4px solid $timeline-red; 
+    border-top: 4px solid wickbrand.$timeline-red; 
 }
 
 .mobile-tabbed-interface-main-tab.selected.mobile-inspector-tab {
-    border-top: 4px solid $inspector-teal; 
+    border-top: 4px solid wickbrand.$inspector-teal; 
 }
 
 .mobile-tabbed-interface-main-tab.selected.mobile-code-tab {
-    border-top: 4px solid $code-pink; 
+    border-top: 4px solid wickbrand.$code-pink; 
 }
 
 .mobile-tabbed-interface-main-tab.selected.mobile-asset-tab {
-    border-top: 4px solid $asset-green; 
+    border-top: 4px solid wickbrand.$asset-green; 
 }
 
 .mobile-tabbed-interface-icon {
@@ -86,7 +86,7 @@ $header-height: 42px;
 }
 
 .mobile-tabbed-interface-body {
-    background-color: $mobile-panel-background;
+    background-color: wickbrand.$mobile-panel-background;
     width: 100%;
     height: calc(100% - #{$header-height});
 }

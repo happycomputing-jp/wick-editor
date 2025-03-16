@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 $inspector-padding: 10px;
 $inspector-title-height: 36px;
@@ -26,17 +26,17 @@ $inspector-row-height: 26px;
 $inspector-button-height: 40px;
 $inspector-button-min-width: 40px;
 $inspector-image-preview-size: 100px;
-$inspector-break-size: calc(#{$editor-outline-padding} * .5);
+$inspector-break-size: calc(#{wickbrand.$editor-outline-padding} * .5);
 
 $inspector-transition-duration: 0.2s;
 
 .inspector {
-  background-color: $editor-primary;
+  background-color: wickbrand.$editor-primary;
   width: 100%;
   height: 100%;
   overflow: auto;
   box-sizing: border-box;
-  border-right: $editor-outline-padding solid $editor-primary-outline;
+  border-right: wickbrand.$editor-outline-padding solid wickbrand.$editor-primary-outline;
   font-family: 'Nunito Sans';
   overflow: hidden;
 }
@@ -66,7 +66,7 @@ $inspector-transition-duration: 0.2s;
   padding-right: $inspector-padding;
   padding-top: calc(#{$inspector-padding} / 2);
   padding-bottom: calc(#{$inspector-padding} / 2);
-  border-bottom: $inspector-break-size solid $editor-primary-outline;
+  border-bottom: $inspector-break-size solid wickbrand.$editor-primary-outline;
   display: flex;
   flex-direction: column;
   align-items: center;

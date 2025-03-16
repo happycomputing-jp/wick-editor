@@ -1,4 +1,4 @@
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 $canvas-transforms-size: 40px;
 
@@ -11,7 +11,7 @@ $canvas-transforms-size: 40px;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
-  background-color: $editor-primary-outline;
+  background-color: wickbrand.$editor-primary-outline;
   border-radius: 4px;
 }
 .canvas-transforms-widget.mobile {
@@ -80,7 +80,7 @@ $canvas-transforms-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $editor-primary-outline;
+  background-color: wickbrand.$editor-primary-outline;
   border-radius: 30px; 
 }
 

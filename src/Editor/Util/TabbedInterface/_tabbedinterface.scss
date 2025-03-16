@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- @import 'Editor/_wickbrand.scss';
+ @use 'Editor/_wickbrand.scss';
  
 $header-height: 30px;
 
@@ -46,7 +46,7 @@ $header-height: 30px;
     background: none;
     border: none;
     margin-left: 15px; 
-    background-color: $editor-modal-gray;
+    background-color: wickbrand.$editor-modal-gray;
     border: none;
     border-bottom: 2px solid #484747; //$editor-popout-secondary; 
     color: #CFCFCF; //$editor-popout-tertiary-text; 
@@ -60,6 +60,6 @@ $header-height: 30px;
 
 .tabbed-interface-main-tab.selected {
     transition: .4s;
-    border-bottom: 2px solid $wick-green; 
+    border-bottom: 2px solid wickbrand.$wick-green; 
     color: white; 
 }

@@ -17,11 +17,11 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 .popup-menu-popover {
-  background-color: $editor-primary;
-  border: 2px solid $editor-primary-outline;
+  background-color: wickbrand.$editor-primary;
+  border: 2px solid wickbrand.$editor-primary-outline;
   max-width: 375px;
 }
 

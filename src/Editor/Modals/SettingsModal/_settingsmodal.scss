@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- @import 'Editor/_wickbrand.scss';
+ @use 'Editor/_wickbrand.scss';
 
  $settings-modal-height: 375px;
  $settings-title-height: 32px;
@@ -28,7 +28,7 @@
     height: $settings-title-height;
     min-height: $settings-title-height; 
     font-size: 18px;
-    color: $editor-modal-text-gray;
+    color: wickbrand.$editor-modal-text-gray;
     font-weight: bold; 
     text-align: left;
     width: 100%;

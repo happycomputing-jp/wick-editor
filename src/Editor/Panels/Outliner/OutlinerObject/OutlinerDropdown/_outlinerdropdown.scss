@@ -1,5 +1,5 @@
-@import 'Editor/_wickbrand.scss';
-@import '../../outliner';
+@use 'Editor/_wickbrand.scss';
+@use '../../outliner';
 
 $outliner-dropdown-size: 15px;
 
@@ -11,7 +11,7 @@ $outliner-dropdown-size: 15px;
 .outliner-dropdown-icon {
   position: relative;
   z-index: 0;
-  margin-left: $outliner-icon-spacing;
+  margin-left: outliner.$outliner-icon-spacing;
   vertical-align: middle;
   width: $outliner-dropdown-size;
   height: $outliner-dropdown-size;
@@ -23,7 +23,7 @@ $outliner-dropdown-size: 15px;
 
 .expanded {
   animation-name: rotate;
-  animation-duration: $dropdown-animation-duration;
+  animation-duration: outliner.$dropdown-animation-duration;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }

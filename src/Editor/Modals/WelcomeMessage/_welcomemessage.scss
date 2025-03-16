@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 $welcome-modal-padding: 28px;
 
@@ -46,7 +46,7 @@ $welcome-modal-padding: 28px;
 }
 
 #welcome-message-container {
-  background-color: $editor-modal-dark;
+  background-color: wickbrand.$editor-modal-dark;
   width: 350px;
   min-width: 350px;
   padding: $welcome-modal-padding;
@@ -55,32 +55,32 @@ $welcome-modal-padding: 28px;
 }
 
 #welcome-modal-title {
-  color: $editor-modal-text-white;
+  color: wickbrand.$editor-modal-text-white;
   font-size: 22px;
   font-weight: bold;
   white-space: nowrap;
 }
 
 #welcome-modal-version {
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-size: 16px;
   font-weight: 600; // Semi bold;
 }
 
 #welcome-modal-subtitle {
-  color: $editor-modal-text-white;
+  color: wickbrand.$editor-modal-text-white;
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
 }
 
 #welcome-modal-message {
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-size: 14px;
 }
 
 #welcome-modal-forum-link {
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-size: 14px;
   position: absolute;
   left: $welcome-modal-padding;
@@ -88,7 +88,7 @@ $welcome-modal-padding: 28px;
 }
 
 .welcome-modal-highlight {
-  color: $editor-modal-text-highlight;
+  color: wickbrand.$editor-modal-text-highlight;
 }
 
 .welcome-modal-main-container {
@@ -128,7 +128,7 @@ $welcome-modal-padding: 28px;
   height: 380px;
   max-width: 400px;
   padding: 0px; 
-  background-color: $editor-modal-dark !important;
+  background-color: wickbrand.$editor-modal-dark !important;
 }
 
 .welcome-modal-mobile-image {
@@ -148,7 +148,7 @@ $welcome-modal-padding: 28px;
 }
 
 .welcome-modal-title {
-  color: $editor-modal-text-white;
+  color: wickbrand.$editor-modal-text-white;
   font-size: 22px;
   font-weight: bold;
   white-space: nowrap;
@@ -156,7 +156,7 @@ $welcome-modal-padding: 28px;
 }
 
 .welcome-modal-version {
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-size: 16px;
   font-weight: 600; // Semi bold;
 }

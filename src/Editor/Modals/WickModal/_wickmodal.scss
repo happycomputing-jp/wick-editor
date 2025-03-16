@@ -17,10 +17,10 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 #modal-close-icon-container {
-  background-color: $editor-modal-gray;
+  background-color: wickbrand.$editor-modal-gray;
   border: none;
   position: absolute;
   top: 15px; 
