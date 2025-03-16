@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 $action-button-transition-duration: .2s;
 
@@ -90,69 +90,69 @@ $action-button-transition-duration: .2s;
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $deep-cereulian;
-  color: $deep-cereulian-text;
+  background-color: wickbrand.$deep-cereulian;
+  color: wickbrand.$deep-cereulian-text;
 }
 
 body.hasHover .action-button-blue:hover {
-  background-color: $deep-cereulian-light;
-  color: $deep-cereulian-text;
+  background-color: wickbrand.$deep-cereulian-light;
+  color: wickbrand.$deep-cereulian-text;
 }
 
 .action-button-blue:active {
-  background-color: $deep-cereulian-dark;
-  color: $deep-cereulian-text;
+  background-color: wickbrand.$deep-cereulian-dark;
+  color: wickbrand.$deep-cereulian-text;
 }
 
 .action-button-blue.active-button {
-  background-color: $deep-cereulian-dark;
-  color: $deep-cereulian-text;
+  background-color: wickbrand.$deep-cereulian-dark;
+  color: wickbrand.$deep-cereulian-text;
 }
 
 .action-button-sky {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $sleepy-sky-dark;
-  color: $sleepy-sky-text;
+  background-color: wickbrand.$sleepy-sky-dark;
+  color: wickbrand.$sleepy-sky-text;
 }
 
 body.hasHover .action-button-sky:hover {
-  background-color: $sleepy-sky;
-  color: $sleepy-sky-text;
+  background-color: wickbrand.$sleepy-sky;
+  color: wickbrand.$sleepy-sky-text;
 }
 
 .action-button-sky:active {
-  background-color: $sleepy-sky-light;
-  color: $sleepy-sky-text;
+  background-color: wickbrand.$sleepy-sky-light;
+  color: wickbrand.$sleepy-sky-text;
 }
 
 .action-button-sky.active-button {
-  background-color: $sleepy-sky-light;
-  color: $sleepy-sky-text;
+  background-color: wickbrand.$sleepy-sky-light;
+  color: wickbrand.$sleepy-sky-text;
 }
 
 .action-button-red {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-red;
-  color: $wick-red-text;
+  background-color: wickbrand.$wick-red;
+  color: wickbrand.$wick-red-text;
 }
 
 body.hasHover .action-button-red:hover {
-  background-color: $wick-red-light;
-  color: $wick-red-text;
+  background-color: wickbrand.$wick-red-light;
+  color: wickbrand.$wick-red-text;
 }
 
 .action-button-red:active {
-  background-color: $wick-red-dark;
-  color: $wick-red-text;
+  background-color: wickbrand.$wick-red-dark;
+  color: wickbrand.$wick-red-text;
 }
 
 .action-button-red.active-button {
-  background-color: $wick-red-dark;
-  color: $wick-red-text;
+  background-color: wickbrand.$wick-red-dark;
+  color: wickbrand.$wick-red-text;
 }
 
 .action-button-dark-red {
@@ -160,22 +160,22 @@ body.hasHover .action-button-red:hover {
   transition-duration: $action-button-transition-duration;
 
   background-color: #A30000;
-  color: $wick-red-text;
+  color: wickbrand.$wick-red-text;
 }
 
 body.hasHover .action-button-dark-red:hover {
   background-color: #B30000;
-  color: $wick-red-text;
+  color: wickbrand.$wick-red-text;
 }
 
 .action-button-dark-red:active {
   background-color: #940000;
-  color: $wick-red-text;
+  color: wickbrand.$wick-red-text;
 }
 
 .action-button-dark-red.active-button {
   background-color: #940000;
-  color: $wick-red-text;
+  color: wickbrand.$wick-red-text;
 }
 
 // Active Green
@@ -183,20 +183,20 @@ body.hasHover .action-button-dark-red:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-green-dark;
+  background-color: wickbrand.$wick-green-dark;
   color: black;
 }
 
 body.hasHover .action-button-active-green:hover {
-  background-color: $wick-green;
+  background-color: wickbrand.$wick-green;
 }
 
 .action-button-active-green:active {
-  background-color: $wick-green-dark;
+  background-color: wickbrand.$wick-green-dark;
 }
 
 .action-button-active-green.active-button {
-  background-color: $wick-green-dark;
+  background-color: wickbrand.$wick-green-dark;
 }
 
 // Green
@@ -205,23 +205,23 @@ body.hasHover .action-button-active-green:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-green;
-  color: $wick-green-text;
+  background-color: wickbrand.$wick-green;
+  color: wickbrand.$wick-green-text;
 }
 
 body.hasHover .action-button-green:hover {
-  background-color: $wick-green-light;
-  color: $wick-green-text;
+  background-color: wickbrand.$wick-green-light;
+  color: wickbrand.$wick-green-text;
 }
 
 .action-button-green:active {
-  background-color: $wick-green-dark;
-  color: $wick-green-text;
+  background-color: wickbrand.$wick-green-dark;
+  color: wickbrand.$wick-green-text;
 }
 
 .action-button-green.active-button {
-  background-color: $wick-green-dark;
-  color: $wick-green-text;
+  background-color: wickbrand.$wick-green-dark;
+  color: wickbrand.$wick-green-text;
 }
 
 
@@ -229,30 +229,30 @@ body.hasHover .action-button-green:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-yellow;
-  color: $wick-yellow-text;
+  background-color: wickbrand.$wick-yellow;
+  color: wickbrand.$wick-yellow-text;
 }
 
 body.hasHover .action-button-yellow:hover {
-  background-color: $wick-yellow-light;
-  color: $wick-yellow-text;
+  background-color: wickbrand.$wick-yellow-light;
+  color: wickbrand.$wick-yellow-text;
 }
 
 .action-button-yellow:active {
-  background-color: $wick-yellow-dark;
-  color: $wick-yellow-text;
+  background-color: wickbrand.$wick-yellow-dark;
+  color: wickbrand.$wick-yellow-text;
 }
 
 .action-button-yellow.active-button {
-  background-color: $wick-yellow-dark;
-  color: $wick-yellow-text;
+  background-color: wickbrand.$wick-yellow-dark;
+  color: wickbrand.$wick-yellow-text;
 }
 
 .action-button-tool {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-primary;
+  background-color: wickbrand.$editor-primary;
   color: black;
 }
 
@@ -265,7 +265,7 @@ body.hasHover .action-button-tool:hover {
 .action-button-tool:active {
   //background-color: $wick-green-dark;
   border: 2px solid #01C094;
-  background-color: $editor-secondary;
+  background-color: wickbrand.$editor-secondary;
   color: black;
 }
 
@@ -279,20 +279,20 @@ body.hasHover .action-button-tool:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-primary;
-  color: $editor-menubar-option-text;
+  background-color: wickbrand.$editor-primary;
+  color: wickbrand.$editor-menubar-option-text;
 }
 
 body.hasHover .action-button-menu:hover {
-  color: $editor-menubar-project-text;
+  color: wickbrand.$editor-menubar-project-text;
 }
 
 .action-button-menu:active {
-  color: $editor-menubar-project-text;
+  color: wickbrand.$editor-menubar-project-text;
 }
 
 .action-button-menu.active-button {
-  color: $editor-menubar-project-text;
+  color: wickbrand.$editor-menubar-project-text;
 }
 
 .action-button-menu img{
@@ -303,9 +303,9 @@ body.hasHover .action-button-menu:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-primary;
-  color: $wick-green;
-  border: 1.5px solid $wick-green;
+  background-color: wickbrand.$editor-primary;
+  color: wickbrand.$wick-green;
+  border: 1.5px solid wickbrand.$wick-green;
 
   padding: 0 5px 0 5px;
 }
@@ -314,29 +314,29 @@ body.hasHover .action-button-menu:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-secondary;
-  color: $editor-secondary-text;
+  background-color: wickbrand.$editor-secondary;
+  color: wickbrand.$editor-secondary-text;
 }
 
 body.hasHover .action-button-tool-settings:hover {
-  background-color: $editor-tertiary;
-  color: $editor-primary-property-text;
+  background-color: wickbrand.$editor-tertiary;
+  color: wickbrand.$editor-primary-property-text;
 }
 
 .action-button-tool-settings:active {
-  background-color: $editor-tertiary;
+  background-color: wickbrand.$editor-tertiary;
 }
 
 .action-button-tool-settings.active-button {
-  background-color: $editor-tertiary;
+  background-color: wickbrand.$editor-tertiary;
 }
 
 .action-button-upload {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-primary;
-  color: $editor-primary-property-text;
+  background-color: wickbrand.$editor-primary;
+  color: wickbrand.$editor-primary-property-text;
   border: 1.5px solid #CCCCCC; //$editor-primary-property-text;
   font-size: 16px;
 }
@@ -349,67 +349,67 @@ body.hasHover .action-button-tool-settings:hover {
 
 body.hasHover .action-button-upload:hover {
   //background-color: $wick-green-light;
-  color: $wick-green-dark;
-  border: 1.5px solid $wick-green-light;
+  color: wickbrand.$wick-green-dark;
+  border: 1.5px solid wickbrand.$wick-green-light;
 }
 
 .action-button-upload:active {
   //background-color: $wick-green;
-  color: $wick-green-dark;
-  border: 1.5px solid $wick-green;
+  color: wickbrand.$wick-green-dark;
+  border: 1.5px solid wickbrand.$wick-green;
 }
 
 .action-button-upload.active-button {
   //background-color: $wick-green-light;
-  color: $wick-green-dark;
-  border: 1.5px solid $wick-green-light;
+  color: wickbrand.$wick-green-dark;
+  border: 1.5px solid wickbrand.$wick-green-light;
 }
 
 .action-button-gray {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-gray;
-  color: $wick-gray-text;
+  background-color: wickbrand.$wick-gray;
+  color: wickbrand.$wick-gray-text;
   font-size: 16px;
 }
 
 body.hasHover .action-button-gray:hover {
-  background-color: $wick-gray-light;
-  color: $wick-gray-text;
+  background-color: wickbrand.$wick-gray-light;
+  color: wickbrand.$wick-gray-text;
 }
 
 .action-button-gray:active {
-  background-color: $wick-gray-dark;
-  color: $wick-gray-text;
+  background-color: wickbrand.$wick-gray-dark;
+  color: wickbrand.$wick-gray-text;
 }
 
 .action-button-gray.active-button {
-  background-color: $wick-gray-dark;
-  color: $wick-gray-text;
+  background-color: wickbrand.$wick-gray-dark;
+  color: wickbrand.$wick-gray-text;
 }
 
 .action-button-gray-green {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-gray;
+  background-color: wickbrand.$wick-gray;
   color: white;
   font-size: 16px;
 }
 
 body.hasHover .action-button-gray-green:hover {
-  background-color: $wick-green;
+  background-color: wickbrand.$wick-green;
   color: black;//white;
 }
 
 .action-button-gray-green:active {
-  background-color: $wick-green-dark;
+  background-color: wickbrand.$wick-green-dark;
   color: black //white;
 }
 
 .action-button-gray-green.active-button {
-  background-color: $wick-green-dark;
+  background-color: wickbrand.$wick-green-dark;
   color: black; //white;
 }
 
@@ -423,17 +423,17 @@ body.hasHover .action-button-gray-green:hover {
 }
 
 body.hasHover .action-button-error:hover {
-  background-color: $wick-error-red-light;
+  background-color: wickbrand.$wick-error-red-light;
   color: white;
 }
 
 .action-button-error:active {
-  background-color: $wick-error-red-dark;
+  background-color: wickbrand.$wick-error-red-dark;
   color: white;
 }
 
 .action-button-error.active-button {
-  background-color: $wick-error-red-dark;
+  background-color: wickbrand.$wick-error-red-dark;
   color: white;
 }
 
@@ -441,25 +441,25 @@ body.hasHover .action-button-error:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-secondary;
+  background-color: wickbrand.$editor-secondary;
   color: black;
 }
 
 body.hasHover .action-button-checkbox:hover {
   //background-color: $editor-tertiary;
-  border: 2px solid $wick-green-light;
+  border: 2px solid wickbrand.$wick-green-light;
   color: black;
 }
 
 .action-button-checkbox:active {
   //background-color: $wick-green-dark;
-  border: 2px solid $wick-green-dark;
+  border: 2px solid wickbrand.$wick-green-dark;
   color: black;
 }
 
 .action-button-checkbox.active-button {
   //background-color: $wick-green-dark;
-  border: 2px solid $wick-green-dark;
+  border: 2px solid wickbrand.$wick-green-dark;
   color: black;
 }
 
@@ -467,23 +467,23 @@ body.hasHover .action-button-checkbox:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-active-blue;
+  background-color: wickbrand.$wick-active-blue;
   color: black; //white;
   font-size: 16px;
 }
 
 body.hasHover .action-button-active-blue:hover {
-  background-color: $wick-active-blue-light;
+  background-color: wickbrand.$wick-active-blue-light;
   color: black; //white;
 }
 
 .action-button-active-blue:active {
-  background-color: $wick-active-blue-dark;
+  background-color: wickbrand.$wick-active-blue-dark;
   color: black; //white;
 }
 
 .action-button-active-blue.active-button {
-  background-color: $wick-active-blue-dark;
+  background-color: wickbrand.$wick-active-blue-dark;
   color: black; //white;
 }
 
@@ -491,23 +491,23 @@ body.hasHover .action-button-active-blue:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $wick-active-blue;
+  background-color: wickbrand.$wick-active-blue;
   color: black; //white;
   font-size: 16px;
 }
 
 body.hasHover .action-button-inspector:hover {
-  background-color: $wick-active-blue-light;
+  background-color: wickbrand.$wick-active-blue-light;
   color: black; //white;
 }
 
 .action-button-inspector:active {
-  background-color: $wick-active-blue-dark;
+  background-color: wickbrand.$wick-active-blue-dark;
   color: black; //white;
 }
 
 .action-button-inspector.active-button {
-  background-color: $wick-active-blue-dark;
+  background-color: wickbrand.$wick-active-blue-dark;
   color: black; //white;
 }
 
@@ -515,24 +515,24 @@ body.hasHover .action-button-inspector:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-popout-secondary;
+  background-color: wickbrand.$editor-popout-secondary;
   color: white;//$editor-popout-secondary-text;
   font-size: 16px;
 }
 
 body.hasHover .action-button-reference:hover {
   //background-color: $wick-active-blue;
-  color: $wick-green-light; //white;
+  color: wickbrand.$wick-green-light; //white;
 }
 
 .action-button-reference:active {
   //background-color: $wick-active-blue-dark;
-  color: $wick-green-light; //white;
+  color: wickbrand.$wick-green-light; //white;
 }
 
 .action-button-reference.active-button {
   //background-color: $wick-active-blue-dark;
-  color: $wick-green-light; //white;
+  color: wickbrand.$wick-green-light; //white;
 }
 
 // Styling for script name buttons in the inspector script window.
@@ -541,7 +541,7 @@ body.hasHover .action-button-reference:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $editor-primary;
+  background-color: wickbrand.$editor-primary;
   color: #CCCCCC; //$editor-primary-text;
   font-size: 16px;
 }
@@ -570,24 +570,24 @@ body.hasHover .action-button-script-name:hover {
   -webkit-transition-duration: $action-button-transition-duration; /* Safari */
   transition-duration: $action-button-transition-duration;
 
-  background-color: $flame;
-  color: $flame-text;
+  background-color: wickbrand.$flame;
+  color: wickbrand.$flame-text;
   font-size: 16px;
 }
 
 body.hasHover .action-button-flame:hover {
-  background-color: $flame-light;
-  color: $flame-text;
+  background-color: wickbrand.$flame-light;
+  color: wickbrand.$flame-text;
 }
 
 .action-button-flame:active {
-  background-color: $flame-dark;
-  color: $flame-text;
+  background-color: wickbrand.$flame-dark;
+  color: wickbrand.$flame-text;
 }
 
 .action-button-flame.active-button {
-  background-color: $flame-dark;
-  color: $flame-text;
+  background-color: wickbrand.$flame-dark;
+  color: wickbrand.$flame-text;
 }
 
 // support us button
@@ -596,7 +596,7 @@ body.hasHover .action-button-flame:hover {
   transition-duration: $action-button-transition-duration;
 
   background-color: transparent;
-  border: 2px solid $patreon-orange;
+  border: 2px solid wickbrand.$patreon-orange;
   color: #e0e0e0;
 
   padding: 2px 6px 2px 6px;

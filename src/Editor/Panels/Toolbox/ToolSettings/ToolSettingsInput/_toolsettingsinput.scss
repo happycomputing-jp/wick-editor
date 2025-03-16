@@ -17,13 +17,13 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
-@import '../toolsettings.scss'; 
+@use 'Editor/_wickbrand.scss';
+@use '../toolsettings.scss'; 
 
 $settings-input-size: 40px;
 
 .settings-text-label {
-  color: $editor-primary-property-text;
+  color: wickbrand.$editor-primary-property-text;
   font-size: 12px;
   bottom: 0px;
   text-align: center;

@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- @import 'Editor/_wickbrand.scss';
+ @use 'Editor/_wickbrand.scss';
 
  $keyboard-shortcuts-modal-height : 350px;
  $action-column-width: 45%;
@@ -40,7 +40,7 @@
 
 #keyboard-shortcuts-modal-title {
   font-size: 18px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-weight: bold; 
   text-align: center;
 }
@@ -87,7 +87,7 @@ kbd {
  }
 
  .keyboard-shortcuts-key-icon-container {
-  color: $editor-modal-text-gray; 
+  color: wickbrand.$editor-modal-text-gray; 
  }
 
  #keyboard-shortcuts-body {
@@ -99,7 +99,7 @@ kbd {
  .hotkey-action-column {
    width: $action-column-width;
    padding-left: 1.5em; 
-   color: $editor-modal-text-gray; 
+   color: wickbrand.$editor-modal-text-gray; 
  }
 
  .hotkey-header-column {
@@ -108,15 +108,15 @@ kbd {
   border: none;
   font-size: 20px;
   padding-left: .5em; 
-  background-color: $editor-popout-primary; 
+  background-color: wickbrand.$editor-popout-primary; 
   font-weight: bold;
   vertical-align: middle;
   cursor: pointer;
  }
 
  .hotkey-header-column:hover {
-  background-color: $editor-popout-secondary; 
-  color: $editor-modal-text-highlight; 
+  background-color: wickbrand.$editor-popout-secondary; 
+  color: wickbrand.$editor-modal-text-highlight; 
  }
 
  .hotkey-column {
@@ -125,7 +125,7 @@ kbd {
 
  .hotkey-column:hover {
    cursor: pointer;
-   background-color: $editor-popout-secondary;
+   background-color: wickbrand.$editor-popout-secondary;
  }
 
 .hotkey-column.header {
@@ -133,16 +133,16 @@ kbd {
 }
  .hotkey-column.header:hover {
    cursor: default;
-   background-color: $editor-modal-gray;
+   background-color: wickbrand.$editor-modal-gray;
  }
 
  .hotkey-column.editing {
-   background-color: $wick-yellow-light;
-   color: $wick-yellow-text;
+   background-color: wickbrand.$wick-yellow-light;
+   color: wickbrand.$wick-yellow-text;
  }
 
  .hotkey-column.edited {
-   background-color: $magenta-light;
+   background-color: wickbrand.$magenta-light;
    color: black; 
  }
 
@@ -151,7 +151,7 @@ kbd {
  }
 
  thead {
-   color: $editor-popout-secondary-text;
+   color: wickbrand.$editor-popout-secondary-text;
  }
 
  table {

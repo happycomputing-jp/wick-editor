@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import './_wickbrand.scss';
+@use '_wickbrand.scss';
 
 $menu-bar-height: 40px;
 $toolbox-height: 40px;
@@ -114,7 +114,7 @@ body {
 }
 
 .info-toast-background {
-  background-color: $editor-modal-gray;
+  background-color: wickbrand.$editor-modal-gray;
 }
 
 .info-toast-background button {
@@ -138,7 +138,7 @@ body {
 }
 
 .warning-toast-background {
-  background-color: $wick-yellow-light;//$wick-yellow-dark;
+  background-color: wickbrand.$wick-yellow-light;//$wick-yellow-dark;
 }
 
 .warning-toast-background button {
@@ -150,7 +150,7 @@ body {
 }
 
 .success-toast-background {
-  background-color: $wick-green-light;//$wick-green-dark;
+  background-color: wickbrand.$wick-green-light;//$wick-green-dark;
 }
 
 .success-toast-background button {
@@ -164,7 +164,7 @@ body {
 .mobile-editor-body {
   border-right-width: calc(#{$splitter-width} * 2);
   border-right-style: solid;
-  border-right-color: $splitter-color !important;
+  border-right-color: wickbrand.$splitter-color !important;
 }
 
 /* Basic re-flex panel/splitter styling */
@@ -208,17 +208,17 @@ body {
   width: 100%; }
 
 .reflex-container > .reflex-splitter {
-  background-color: $splitter-color;
+  background-color: wickbrand.$splitter-color;
   z-index: 0; }
 
 .reflex-container > .reflex-splitter.active,
 .reflex-container > .reflex-splitter:hover {
-  background-color: $splitter-highlight-color;
+  background-color: wickbrand.$splitter-highlight-color;
   transition: all 1s ease; }
 
 .horizontal > .reflex-splitter {
-  border-bottom: $splitter-width solid $splitter-color !important;
-  border-top: $splitter-width solid $splitter-color !important;
+  border-bottom: $splitter-width solid wickbrand.$splitter-color !important;
+  border-top: $splitter-width solid wickbrand.$splitter-color !important;
   cursor: row-resize;
   width: 100%;
   height: $splitter-width }
@@ -232,12 +232,12 @@ body {
 
 .reflex-container.horizontal > .reflex-splitter:hover,
 .reflex-container.horizontal > .reflex-splitter.active {
-  border-bottom: $splitter-width solid $splitter-highlight-color !important;
-  border-top: $splitter-width solid $splitter-highlight-color !important; }
+  border-bottom: $splitter-width solid wickbrand.$splitter-highlight-color !important;
+  border-top: $splitter-width solid wickbrand.$splitter-highlight-color !important; }
 
 .reflex-container.vertical > .reflex-splitter {
-  border-right: $splitter-width solid $splitter-color !important;
-  border-left: $splitter-width solid $splitter-color !important;
+  border-right: $splitter-width solid wickbrand.$splitter-color !important;
+  border-left: $splitter-width solid wickbrand.$splitter-color !important;
   cursor: col-resize;
   height: 100%;
   width: $splitter-width; }
@@ -251,8 +251,8 @@ body {
 
 .reflex-container.vertical > .reflex-splitter:hover,
 .reflex-container.vertical > .reflex-splitter.active {
-  border-right: $splitter-width solid $splitter-highlight-color !important;
-  border-left: $splitter-width solid $splitter-highlight-color !important; }
+  border-right: $splitter-width solid wickbrand.$splitter-highlight-color !important;
+  border-left: $splitter-width solid wickbrand.$splitter-highlight-color !important; }
 
 .reflex-container > .reflex-splitter.reflex-thin {
   box-sizing: border-box;
@@ -268,8 +268,8 @@ body {
   opacity: 0.5; }
 
 .reflex-container.horizontal > .reflex-splitter.reflex-thin {
-  border-bottom: $splitter-width solid $splitter-color !important;
-  border-top: $splitter-width solid $splitter-color !important;
+  border-bottom: $splitter-width solid wickbrand.$splitter-color !important;
+  border-top: $splitter-width solid wickbrand.$splitter-color !important;
   height: $splitter-width;
   cursor: row-resize;
   margin: -$splitter-width 0;
@@ -277,21 +277,21 @@ body {
 
 .reflex-container.horizontal > .reflex-splitter.reflex-thin.active,
 .reflex-container.horizontal > .reflex-splitter.reflex-thin:hover {
-  border-bottom: $splitter-width solid $splitter-highlight-color !important;
-  border-top: $splitter-width solid $splitter-highlight-color !important; }
+  border-bottom: $splitter-width solid wickbrand.$splitter-highlight-color !important;
+  border-top: $splitter-width solid wickbrand.$splitter-highlight-color !important; }
 
 .reflex-container.vertical > .reflex-splitter.reflex-thin {
-  border-right: $splitter-width solid $splitter-color !important;
-  border-left: $splitter-width solid $splitter-color !important;
+  border-right: $splitter-width solid wickbrand.$splitter-color !important;
+  border-left: $splitter-width solid wickbrand.$splitter-color !important;
   width: $splitter-width !important;
   cursor: col-resize;
-  margin: 0 -$splitter-width;
+  margin: 0 - $splitter-width;
   height: 100%; }
 
 .reflex-container.vertical > .reflex-splitter.reflex-thin.active,
 .reflex-container.vertical > .reflex-splitter.reflex-thin:hover {
-  border-right: $splitter-width solid $splitter-highlight-color !important;
-  border-left: $splitter-width solid $splitter-highlight-color !important; }
+  border-right: $splitter-width solid wickbrand.$splitter-highlight-color !important;
+  border-left: $splitter-width solid wickbrand.$splitter-highlight-color !important; }
 
 .mobile-reflex-splitter {
   height: 15px !important;

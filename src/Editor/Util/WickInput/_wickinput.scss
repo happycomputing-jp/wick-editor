@@ -17,9 +17,9 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
-$numeric-input-background: $editor-text-input-background;
+$numeric-input-background: wickbrand.$editor-text-input-background;
 
 .wick-input-container {
   width: 100%;
@@ -32,18 +32,18 @@ $numeric-input-background: $editor-text-input-background;
   padding-left: 4px;
   width: 100%;
   height: 100%;
-  border-radius: $interface-input-roundness;
+  border-radius: wickbrand.$interface-input-roundness;
   border: none;
-  background-color: $editor-text-input-background;
+  background-color: wickbrand.$editor-text-input-background;
   color: white;
 }
 
 .wick-input.invalid {
-   border-left: $editor-input-border-width solid $wick-red !important;
+   border-left: wickbrand.$editor-input-border-width solid wickbrand.$wick-red !important;
 }
 
 .wick-input-updating {
-  border: $editor-input-border-width solid $wick-yellow !important;
+  border: wickbrand.$editor-input-border-width solid wickbrand.$wick-yellow !important;
 }
 
 .wick-input.read-only {
@@ -53,7 +53,7 @@ $numeric-input-background: $editor-text-input-background;
 .wick-slider {
   width: 100%;
   height: 100%;
-  border-radius: $interface-input-roundness;
+  border-radius: wickbrand.$interface-input-roundness;
   margin-top: auto;
 }
 
@@ -93,7 +93,7 @@ $numeric-input-background: $editor-text-input-background;
   color: white;
   text-align: center;
   text-decoration: none;
-  border-radius: $interface-roundness-primary;
+  border-radius: wickbrand.$interface-roundness-primary;
   cursor: pointer;
 
   padding: 2px;

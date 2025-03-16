@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 $margin: 3%;
 
@@ -30,7 +30,7 @@ $margin: 3%;
 .builtin-library-modal-title {
   height: 30px;
   font-size: 18px;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-weight: bold;
   text-align: left;
   width: 100%;
@@ -62,7 +62,7 @@ $margin: 3%;
 .builtin-library-asset-icon-container {
   width: 100%;
   height: 100px;
-  background-color: $editor-modal-dark;
+  background-color: wickbrand.$editor-modal-dark;
   border: none;
   border-radius: 5px;
   overflow: hidden;

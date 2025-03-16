@@ -17,20 +17,20 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- @import 'Editor/_wickbrand.scss';
- @import '../_outliner.scss';
+ @use 'Editor/_wickbrand.scss';
+ @use '../_outliner.scss';
  
  $outliner-element-padding: 1%;
  $row-identifier-width: 30%;
  $input-container-margin: 4px;
 
- $outliner-row-height: 26px;
+ outliner.$outliner-row-height: 26px;
  
 .outliner-row {
   display: flex;
   align-items: center;
   width: 100%;
-  height: $outliner-row-height;
+  height: outliner.$outliner-row-height;
   margin-bottom: 0px;
 }
 
@@ -40,7 +40,7 @@
   width: $row-identifier-width;
   max-width: $row-identifier-width;
   height: 100%;
-  color: $editor-primary-property-text;
+  color: wickbrand.$editor-primary-property-text;
   white-space: nowrap;
   font-size: 16px;
   font-weight: bold;

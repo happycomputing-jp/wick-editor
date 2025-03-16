@@ -17,8 +17,8 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
-@import '../_inspector.scss';
+@use 'Editor/_wickbrand.scss';
+@use '../_inspector.scss';
 
 $script-window-margin: 5px; 
 
@@ -36,7 +36,7 @@ $script-window-margin: 5px;
 .inspector-script-window-container {
   width: 100%;
   height: 100px;
-  background-color: $editor-tertiary;
+  background-color: wickbrand.$editor-tertiary;
   border-radius: 3px;
 }
 
@@ -48,7 +48,7 @@ $script-window-margin: 5px;
 .inspector-script-window-header {
   width: 100%; 
   height: 25px;
-  background-color: $editor-secondary;
+  background-color: wickbrand.$editor-secondary;
   color: #ffffff; //$editor-secondary-text;
   text-align: center;
   vertical-align: center;

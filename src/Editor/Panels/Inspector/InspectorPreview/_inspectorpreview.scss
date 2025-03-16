@@ -17,8 +17,8 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
-@import 'Editor/Panels/Inspector/_inspector.scss';
+@use 'Editor/_wickbrand.scss';
+@use 'Editor/Panels/Inspector/_inspector.scss';
 
 .inspector-image-preview {
   height: 100px;
@@ -31,8 +31,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: $inspector-padding;
-  margin-top: $inspector-padding;
+  margin-bottom: inspector.$inspector-padding;
+  margin-top: inspector.$inspector-padding;
 }
 
 .inspector-sound-preview {

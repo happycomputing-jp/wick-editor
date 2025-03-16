@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 .support-modal-x-symbol {
   text-align: center;
@@ -49,7 +49,7 @@
 }
  
 #support-modal-title{
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-weight: bold; 
   text-align: left;
   width: 100%; 
@@ -153,14 +153,14 @@
 }
 
 .patreon-button {
-  background-color: $patreon-orange;
-  color: $patreon-text;
+  background-color: wickbrand.$patreon-orange;
+  color: wickbrand.$patreon-text;
   width: 80%;
 }
 
 .github-button {
-  background-color: $github-button;
-  color: $github-text;
+  background-color: wickbrand.$github-button;
+  color: wickbrand.$github-text;
   width: 60%;
 }
 
@@ -181,7 +181,7 @@
 }
 
 #support-modal-hashtag {
-  color: $wick-green;
+  color: wickbrand.$wick-green;
   display: inline-block;
 }
 
@@ -217,7 +217,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: $editor-modal-text-gray;
+  color: wickbrand.$editor-modal-text-gray;
   font-weight: bold; 
   text-align: left;
   width: 100%; 

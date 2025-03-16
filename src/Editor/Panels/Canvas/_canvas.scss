@@ -17,7 +17,7 @@
  * along with Wick Editor.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import 'Editor/_wickbrand.scss';
+@use 'Editor/_wickbrand.scss';
 
 #wick-canvas-container {
   width: 100%;
@@ -27,7 +27,7 @@
 }
 
 #canvas-container-wrapper {
-  border-left: $editor-outline-padding solid $editor-primary-outline;
+  border-left: wickbrand.$editor-outline-padding solid wickbrand.$editor-primary-outline;
 }
 
 canvas[resize] {
