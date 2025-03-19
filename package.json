@@ -19,7 +19,7 @@
     "classnames": "^2.5.1",
     "console-feed": "^3.8.0",
     "electron-is-dev": "^3.0.1",
-    "electron-updater": "^6.3.9",
+    "electron-updater": "^6.3.0",
     "file-saver": "^2.0.5",
     "localforage": "^1.10.0",
     "query-string": "^7.1.3",
