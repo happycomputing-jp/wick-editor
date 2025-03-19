@@ -34,7 +34,7 @@ You'll need to download the following:
 
 - [npm](https://github.com/npm/cli)
 > [!WARNING]
-> npm version 10.8.2 with node v20.19.0 I was able to run.
+> npm version 10.9.2 with node v22.14.0 I was able to run.
 
 ### Installation
 
