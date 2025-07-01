@@ -135,7 +135,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "dotenv": "^8.2.0",
-    "electron": "^7.2.4",
+    "electron": "^28.3.2",
     "electron-builder": "^24.13.3",
     "electron-builder-notarize": "^1.1.2",
     "electron-notarize": "^0.3.0",
