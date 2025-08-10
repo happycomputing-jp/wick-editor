@@ -140,7 +140,7 @@
     "electron-builder-notarize": "^1.1.2",
     "electron-notarize": "^0.3.0",
     "electron-osx-sign": "^0.4.15",
-    "electron-packager": "^14.2.1",
+    "electron-packager": "^17.1.2",
     "gh-pages": "^5.0.0",
     "gulp": "^5.0.0",
     "gulp-babel": "^8.0.0",
